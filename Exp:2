@@ -14,9 +14,9 @@ scanf("%s",input_string);
 int l=strlen(input_string);
 for(i=0;i<l;i++)
 {
-if(input_string[i]=='a')
+if(input_string[i]=='0')
 next_state=trans_table[present_state][0];
-else if(input_string[i]=='b')
+else if(input_string[i]=='1')
 next_state=trans_table[present_state][1];
 else
 invalid=l;
